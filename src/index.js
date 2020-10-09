@@ -6,6 +6,6 @@ import React from 'react';
 import { render } from 'react-dom';
 
 //use hi function
-sayHi();
+//sayHi();
 
 render(<h1>Hey there, Im react.js</h1>, document.getElementById('app'));
