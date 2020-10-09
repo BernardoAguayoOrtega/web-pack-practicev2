@@ -8,4 +8,4 @@ import { render } from 'react-dom';
 //use hi function
 sayHi();
 
-render('Hey there, Im react.js', document.getElementById('app'));
+render(<h1>Hey there, Im react.js</h1>, document.getElementById('app'));
