@@ -1,0 +1,20 @@
+{
+  "name": "web-pack-practicev2",
+  "version": "1.0.0",
+  "description": "Just a project to learn web pack and set up to react.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoAguayoOrtega/web-pack-practicev2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BernardoAguayoOrtega/web-pack-practicev2/issues"
+  },
+  "homepage": "https://github.com/BernardoAguayoOrtega/web-pack-practicev2#readme"
+}
