@@ -1,5 +1,5 @@
 //export hi
-export { hi } from './hi.js';
+import { sayHi } from './hi.js';
 
 //use hi function
-hi();
+sayHi();
