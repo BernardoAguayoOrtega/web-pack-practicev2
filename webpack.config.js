@@ -17,5 +17,10 @@ module.exports = {
 	module: {
 		rules: [babelRules],
 	},
-	plugins: [new HtmlWebPackPlugin()],
+	plugins: [
+		new HtmlWebPackPlugin({
+			title: 'Learn webpack',
+			template: './public/index.html',
+		}),
+	],
 };
