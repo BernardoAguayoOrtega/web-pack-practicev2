@@ -8,6 +8,9 @@ const babelRules = {
 };
 
 module.exports = {
+	output: {
+		filename: 'app.[contentHash].js',
+	},
 	module: {
 		rules: [babelRules],
 	},
