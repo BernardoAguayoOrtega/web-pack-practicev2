@@ -1,3 +1,6 @@
+//import webpack plugins
+const HtmlWebPackPlugin = require('html-webpack-plugin');
+
 const babelRules = {
 	test: /\.js$/,
 	exclude: /node_modules/,
@@ -14,4 +17,5 @@ module.exports = {
 	module: {
 		rules: [babelRules],
 	},
+	plugins: [new HtmlWebPackPlugin()],
 };
